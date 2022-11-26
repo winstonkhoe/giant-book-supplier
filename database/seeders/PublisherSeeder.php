@@ -7,11 +7,6 @@ use Illuminate\Database\Seeder;
 
 class PublisherSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
         $publisher_logos = [
@@ -27,7 +22,6 @@ class PublisherSeeder extends Seeder
                 'phone' => $faker->phoneNumber,
                 'email' => $faker->email,
                 'image' => $publisher_logos[random_int(0, count($publisher_logos)-1)],
-                // 'image' => $faker->imageUrl(400, 400, 'publishing company logo', true),
             ]);
         }
     }

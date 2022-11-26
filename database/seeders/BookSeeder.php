@@ -8,11 +8,6 @@ use Illuminate\Database\Seeder;
 
 class BookSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
         $faker = Faker::create('id_ID');
@@ -24,7 +19,6 @@ class BookSeeder extends Seeder
                 'year' => $faker->numberBetween(1980, 2022),
                 'synopsis' => $faker->paragraph(1),
                 'image' => 'https://media.graphassets.com/HogqJbQNqHjoldFhHegz',
-                // 'image' => $faker->imageUrl(400, 600, 'book', true),
             ]);
         }
     }

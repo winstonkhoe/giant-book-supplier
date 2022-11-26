@@ -7,8 +7,6 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    //
-
     public function showCategoryPage(Request $request, Category $category) {
         $categories = Category::all();
         return view('category', compact('category', 'categories'));
