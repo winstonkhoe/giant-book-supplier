@@ -39,7 +39,7 @@
                             @endforeach
                         </ul>
                     </div>
-                    <a class="hover:text-[#fe641e]" href="{{ route('publisher') }}">Publisher</a>
+                    <a class="hover:text-[#fe641e]" href="{{ route('publisher.index') }}">Publisher</a>
                     <a class="hover:text-[#fe641e]" href="{{ route('contact') }}">Contact</a>
                 </div>
             </div>
