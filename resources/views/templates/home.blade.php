@@ -48,6 +48,9 @@
             @yield('content')
         </div>
     </div>
+    <footer class="flex w-full h-[5rem] bg-[#fe641e] items-center justify-center">
+        <p class="text-xl text-white"><span class="font-bold">GiantBookSupplier</span> by <span class="font-bold">Winston (2440059431) | LL01</span></p>
+    </footer>
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
     @yield('scripts')
 </body>
